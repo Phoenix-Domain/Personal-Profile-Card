@@ -1,0 +1,104 @@
+html{
+    box-sizing:border-box;
+    margin:0;
+    background-color: #0a0a23;
+    font-family:Roboto;
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke;
+}
+
+p{
+    margin:5px auto;
+}
+
+#profile-name{
+    margin:0;
+    color:black;
+}
+
+.profileCard{
+    border:none;
+    text-align: center;
+    border-radius: 20px;
+    width:20rem;
+    margin:0 auto;
+    background-color: #6e6ec4;
+    padding:20px;
+    box-shadow:  inset -3px -3px 6px  #0a0a23;
+    transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease, background-color 0.4s ease, padding 0.4s ease;
+}
+.profileCard:hover { 
+    transform: translateY(-10px);
+    
+    background-color:#a1a1dd;
+    padding:10px;
+}
+
+
+li{
+    
+    text-align:left;
+}
+
+ul{
+    list-style-position:inside;
+    text-align:left;
+    padding:0;
+    margin:0;
+    width:fit-content;
+    display:block;
+}
+
+.sectionHeader{
+    text-align:center;
+    margin:0 auto;
+    font-weight:bold;
+}
+
+
+
+img{
+    width:8em;
+    height:8em;
+    border-radius:50%;
+}
+
+.profile-info{
+    
+    margin-top:0;
+    color:black;
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+
+hr {
+    margin: 1px;
+    border: none; 
+    height: 2px;
+    background-color: #0a0a23; 
+}
+a{
+    text-decoration:none;
+    color:midnightblue;
+}
+
+a:hover{
+    color:purple;
+}
+a:active{
+    color:red;
+}
+
+a:visited{
+    color:brown;
+}
+
+a:focus{
+    border:2px solid #0a0a23;
+    outline:none;
+    border-radius:6px;
+    
+}
